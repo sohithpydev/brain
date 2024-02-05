@@ -8,10 +8,10 @@ st.set_page_config(
         page_icon="🧠",
     )
 
-st.sidebar.header("NeuroRizz 🧠")
+st.sidebar.header("NeuroNerd 🧠")
 st.sidebar.subheader("3D Brain Visualization Tool for Exploration of Brain Regions and MNI Coordinates")
 
-st.header("NeuroRizz 🧠")
+st.header("Neuro Nerd 🧠")
 
 ## MNI coordinates for each brain region
 rprimsens = (41, -27, 47)
