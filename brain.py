@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May 11 21:24:06 2022
-
-@author: chags
-"""
 
 import streamlit as st
 #from nilearn import plotting ## used to generate plots for each brain region 
@@ -13,10 +8,10 @@ st.set_page_config(
         page_icon="🧠",
     )
 
-st.sidebar.header("BrainViz 🧠")
+st.sidebar.header("NeuroRizz 🧠")
 st.sidebar.subheader("3D Brain Visualization Tool for Exploration of Brain Regions and MNI Coordinates")
 
-st.header("BrainViz 🧠")
+st.header("NeuroRizz 🧠")
 
 ## MNI coordinates for each brain region
 rprimsens = (41, -27, 47)
